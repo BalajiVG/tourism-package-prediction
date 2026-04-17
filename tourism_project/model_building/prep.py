@@ -57,7 +57,7 @@ for file_path in files:
     api.upload_file(
         path_or_fileobj=file_path,
         path_in_repo=file_path.split("/")[-1],
-        repo_id="<HF_USERNAME>/tourism-package-prediction",
+        repo_id="BalajiVG/tourism-package-prediction",
         repo_type="dataset",
     )
 print("All split files uploaded to the Hugging Face dataset space.")
